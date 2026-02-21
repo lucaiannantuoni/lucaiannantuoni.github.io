@@ -1,43 +1,134 @@
+/* ================================
+   Luca Iannantuoni · Developer Page
+   ================================ */
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    font-family: -apple-system,
+                 BlinkMacSystemFont,
+                 "Segoe UI",
+                 Roboto,
+                 monospace;
+
+    background-color: #ffffff;
+    color: #111111;
+
+    margin: 0;
+    padding: 0;
+
+    line-height: 1.6;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+
+
+/* ================================
+   Navigation
+   ================================ */
+
+nav {
+    padding: 20px 40px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+nav ul {
     list-style: none;
-    font-weight: bold;
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 24px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
+
+nav a {
     text-decoration: none;
-    color: #999;
+    color: #111111;
+    font-size: 14px;
 }
-a:hover {
-    text-decoration: underline;
+
+nav a:hover {
+    opacity: 0.6;
 }
+
+
+/* ================================
+   Layout
+   ================================ */
+
+.container {
+
+    max-width: 720px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/* ================================
+   Typography
+   ================================ */
+
 h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 28px;
+    font-weight: 500;
+
+    margin-bottom: 8px;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+.subtitle {
+    color: #666666;
+    margin-bottom: 32px;
 }
+
+.section {
+    margin-top: 32px;
+}
+
+.section ul {
+    margin-top: 12px;
+}
+
+
+/* ================================
+   Footer
+   ================================ */
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+
+    margin-top: 120px;
+
+    padding: 40px;
+
+    font-size: 13px;
+
+    color: #666666;
+
+    border-top: 1px solid #eeeeee;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+footer a {
+    color: #666666;
+
+    text-decoration: none;
+
+    margin-right: 16px;
 }
 
-ul.posts li {
-    list-style: none;
+
+/* ================================
+   Axiom
+   ================================ */
+
+.axiom {
+
+    margin-top: 20px;
+
+    font-size: 12px;
+
+    color: #999999;
+
+    letter-spacing: 0.5px;
 }
