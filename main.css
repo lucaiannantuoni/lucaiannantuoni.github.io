@@ -136,4 +136,19 @@ footer {
     letter-spacing: 0.02em;
 }
 
+footer a {
+
+    color: #666666;
+
+    text-decoration: none;
+
+    margin-right: 16px;
+
+}
+
+footer a:hover {
+
+    color: #111111;
+
+}
 
