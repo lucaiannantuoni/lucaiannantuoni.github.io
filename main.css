@@ -136,19 +136,26 @@ footer {
     letter-spacing: 0.02em;
 }
 
-footer a {
+/* ================================
+   Footer links (force override)
+   ================================ */
 
-    color: #666666;
+footer a,
+footer a:link,
+footer a:visited {
 
-    text-decoration: none;
+    color: #666666 !important;
 
-    margin-right: 16px;
+    text-decoration: none !important;
 
 }
 
-footer a:hover {
+footer a:hover,
+footer a:active {
 
-    color: #111111;
+    color: #111111 !important;
+
+    text-decoration: none !important;
 
 }
 
