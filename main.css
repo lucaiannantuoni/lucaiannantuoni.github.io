@@ -180,8 +180,3 @@ a:hover {
     text-decoration: none;
 
 }
-
-a, a:link, a:visited {
-  color: #ff0000 !important;
-  text-decoration: none !important;
-}
