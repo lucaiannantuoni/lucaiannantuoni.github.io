@@ -180,3 +180,12 @@ a:hover {
     text-decoration: none;
 
 }
+
+/* ================================
+   Global link baseline
+   ================================ */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
