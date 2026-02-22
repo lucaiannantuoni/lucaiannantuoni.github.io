@@ -129,9 +129,10 @@ footer {
 
 /* disclaimer */
 .disclaimer {
-    margin-top: 60px;
-    font-size: 12px;
+    margin-top: 70px;
+    font-size: 11px;
     color: #bbb;
+    letter-spacing: 0.02em;
 }
 
 
